@@ -1,37 +1,72 @@
 "use client";
 
+import heroImage from "../public/hero-image.png";
+
 const Hero = () => {
 
     const headingText = "Transforming mortgage origination through data-driven innovation";
-    const headingDescription = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.";
+    const firstParagraph = "Our mortgage origination company is committed to providing a seamless and stress-free experience for our clients. To achieve this goal, we utilize cutting-edge artificial intelligence tools at every step of the mortgage process.";
+    const secondParagraph = "These tools help us to streamline the process and significantly roduce cycle time, allowing you to secure your mortgage quickly and efficiently. By leveraging advanced technology, we can offer a hassle-free experience that saves you time and effort.";
 
     return (
-      <div className="rounded-2xl bg-purple-400 justify-center">
-        <div className="max-w-[90%">
-          {/*  */}
-          <div id="first-component" className="flex flex-row items-center">
+      // {YUKASH'S EXAMPLE CODE BELOW. KEPT FOR REFERENCE}
+      // <div className="rounded-2xl bg-purple-400 justify-center">
+      //   <div className="max-w-[90%">
+      //     {/*  */}
+      //     <div id="first-component" className="flex flex-row items-center">
 
-            {/* Left piece */}
-            <div>
-              <h1 className=""> 
-                { headingText }
-              </h1>
-              <p> 
-                { headingDescription }
-              </p>
-            </div>
+      //       {/* Left piece */}
+      //       <div>
+      //         <h1 className=""> 
+      //           { headingText }
+      //         </h1>
+      //         <p> 
+      //           { headingDescription }
+      //         </p>
+      //       </div>
 
-            {/* right piece: image */}
+      //       {/* right piece: image */}
             
-            <img className="rounded-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCHo3CkaH0oRY3MvrEN0xgn-x_Lsn3Lm3lVQ&s"/>
+      //       <img className="rounded-2xl" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCHo3CkaH0oRY3MvrEN0xgn-x_Lsn3Lm3lVQ&s"/>
 
+      //     </div>
+
+      //     {/* 3 buttons */}
+      //     <div>
+
+      //     </div>
+      //   </div>
+      // </div>
+
+
+      //Main Hero Container
+      <div className="rounded-2xl bg-violet-300 justify-center padding-2rem">
+        {/* first row (text +image) */}
+        <div className="flex flex-row items-center text-black">
+          {/* text (left side) */}
+          <div className="flex flex-col items-left">
+            <h1 className="text-4xl font-serif">
+              { headingText }
+            </h1>
+            <p className="font-sans">
+              { firstParagraph }
+            </p>
+            <p className="font-sans">
+              { secondParagraph }
+            </p>
           </div>
-
-          {/* 3 buttons */}
+          {/* image (right side) */}
           <div>
-
+            <img className="rounded-2xl" src={heroImage}/>
           </div>
         </div>
+        {/* second row (3 buttons) */}
+        <div>
+          <button></button>
+          <button></button>
+          <button></button>
+        </div>
+
       </div>
     );
 
