@@ -1,7 +1,5 @@
 "use client";
 
-import heroImage from "../public/hero-image.png";
-
 const Hero = () => {
 
     const headingText = "Transforming mortgage origination through data-driven innovation";
@@ -57,7 +55,7 @@ const Hero = () => {
           </div>
           {/* image (right side) */}
           <div>
-            <img className="rounded-2xl" src={heroImage}/>
+            <img className="rounded-2xl" src="https://cdn.pixabay.com/photo/2023/01/05/22/41/ai-generated-7700040_1280.png"/>
           </div>
         </div>
         {/* second row (3 buttons) */}
