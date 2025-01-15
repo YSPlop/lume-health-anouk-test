@@ -1,14 +1,14 @@
 "use client";
 
-const MeetTheTeam = () => {
+const OurServices = () => {
 
     return (
 
       <div className="rounded-2xl bg-white-300 justify-center">
-        MEET THE TEAM COMPONENT
+        OUR SERVICES COMPONENT
         
       </div>
     );
 
 };
-export default MeetTheTeam;
+export default OurServices;
