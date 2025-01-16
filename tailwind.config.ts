@@ -8,6 +8,7 @@ export default {
   ],
   theme: {
     extend: {
+      // Custom backgroun color
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
