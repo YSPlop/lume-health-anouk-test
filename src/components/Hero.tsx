@@ -9,10 +9,10 @@ const Hero = () => {
     const aboutUs = "About Us";
     return (
       //Main Hero Container
-      <div className="max-w-4xl mx-auto my-8 bg-primary shadow-lg rounded-lg p-8">
+      <div className="max-w-4xl mx-auto my-8 bg-primary shadow-lg rounded-lg p-8 ">
 
         {/* first row (text +image) */}
-        <div className="flex flex-row items-center text-black px-12">
+        <div className="flex flex-row items-center text-black px-12 flex flex-col lg:flex-row">
           {/* text (left side) */}
           <div className="flex flex-col items-left">
             <h6 className="font-sans text-purple-300 font-bold mt-4">
@@ -34,7 +34,7 @@ const Hero = () => {
             <img className="rounded-2xl relative" src="https://cdn.pixabay.com/photo/2017/01/05/08/53/man-1954300_1280.png"/>
           </div>
         </div>
-        
+
         {/* second row (3 buttons) */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mx-12 my-6">
           <button className="rounded-2xl text-black bg-white">
