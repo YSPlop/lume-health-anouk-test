@@ -12,14 +12,25 @@ const MeetTheTeam = () => {
         
         {/* Left side with the 2 practitioners */}
         <div className="flex flex-row gap-6">
+
           {/* Team Member #1 */}
           {/* <div className="relative rounded-full overflow-hidden bg-green-100 w-48 h-48 flex items-center justify-center"> */}
-          <div className="relative rounded-full overflow-hidden bg-green-100 w-48 h-48 flex items-center justify-center shadow-2xl border-2 border-green-500 transform-transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-2 hover:shadow-green-500">
-            <img className="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2017/01/05/08/53/man-1954300_1280.png"/>
+          <div className="relative overflow-hidden bg-green-100 w-48 h-100 flex items-center justify-center shadow-2xl border-2 border-green-500 transform-transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-2 hover:shadow-green-500">
+            <img className="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2017/01/31/22/32/doctor-2027768_1280.png"/>
+            <div className="absolute bottom-0 left-0 w-full bg-green-100 text-black-600 text-center py-6 px-4 translate-y-full group-hover:translate-y-0 transition-all duration-500">
+              {/* Card Content */}
+              <h3>Dr. Han Chen</h3>
+            </div>
           </div>
+
+
           {/* Team Member #2 */}
-          <div className="relative rounded-full overflow-hidden bg-yellow-100 w-48 h-48 flex items-center justify-center shadow-2xl border-2 border-yellow-500 transform-transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-2 hover:shadow-yellow-500">
-            <img className="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2017/01/05/08/53/man-1954300_1280.png"/>
+          <div className="relative rounded-full overflow-hidden bg-yellow-100 w-48 h-100 flex items-center justify-center shadow-2xl border-2 border-yellow-500 transform-transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-2 hover:shadow-yellow-500">
+            <img className="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2017/01/31/22/32/cartoon-2027771_1280.png"/>
+            <div className="absolute bottom-0 w-full bg-white bg-white font-bold text-center text-grey-600 justify-center">
+              {/* Card Content */}
+              <h3>Dr. Nat Chen</h3>
+            </div>
           </div> 
         </div>
 
