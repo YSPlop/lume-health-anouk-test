@@ -13,11 +13,12 @@ const MeetTheTeam = () => {
         {/* Left side with the 2 practitioners */}
         <div className="flex flex-row gap-6">
           {/* Team Member #1 */}
-          <div className="relative rounded-full overflow-hidden bg-yellow-100 w-48 h-48 flex items-center justify-center">
+          {/* <div className="relative rounded-full overflow-hidden bg-green-100 w-48 h-48 flex items-center justify-center"> */}
+          <div className="relative rounded-full overflow-hidden bg-green-100 w-48 h-48 flex items-center justify-center shadow-2xl border-2 border-green-500 transform-transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-2 hover:shadow-green-500">
             <img className="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2017/01/05/08/53/man-1954300_1280.png"/>
           </div>
           {/* Team Member #2 */}
-          <div className="relative rounded-full overflow-hidden bg-yellow-100 w-48 h-48 flex items-center justify-center">
+          <div className="relative rounded-full overflow-hidden bg-yellow-100 w-48 h-48 flex items-center justify-center shadow-2xl border-2 border-yellow-500 transform-transition-all duration-500 hover:scale-110 hover:shadow-2xl hover:border-2 hover:shadow-yellow-500">
             <img className="w-full h-full object-cover" src="https://cdn.pixabay.com/photo/2017/01/05/08/53/man-1954300_1280.png"/>
           </div> 
         </div>
@@ -40,6 +41,6 @@ const MeetTheTeam = () => {
       </div>
 
     );
-
+    //YouTube link for styling the doctor image profiles with hover etc --> https://www.youtube.com/watch?v=4cSANAiS2Kc
 };
 export default MeetTheTeam;
